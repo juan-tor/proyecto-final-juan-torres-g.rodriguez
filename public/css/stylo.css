@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Estilos del header */
+header {
+    background-color: #16e2ec;
+}
+
+/* Estilos del main */
+main {
+    margin-top: 80px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #11fff7;
+}
+
+/* Estilos del carrusel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Estilos de los productos */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Estilos del aside */
+aside {
+    background-color: #2ce4e4;
+    padding: 20px;
+    border-left: 5px solid #202222;
+}
+
+/* Estilos del article */
+article {
+    background-color:#2ce4e4 ;
+    padding: 20px;
+    border-left: 5px solid #39dede;
+}
+
+/* Media queries para diseño responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+}
+

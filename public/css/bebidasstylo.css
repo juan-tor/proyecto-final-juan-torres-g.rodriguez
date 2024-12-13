@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos del contenedor principal */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Estilos de la sección de productos */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 900px;
+}
+
+/* Estilos de cada producto */
+.product {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+/* Estilos del botón */
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #18d7e8;
+    color: #101010;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #1bc7e5;
+}
+
+/* Media queries para diseño responsive */
+@media (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        margin-top: 1350px;
+    }
+
+    .product {
+        flex: 1 1 100%;
+    }
+}

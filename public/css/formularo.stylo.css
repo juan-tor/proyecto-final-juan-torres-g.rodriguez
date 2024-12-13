@@ -1,0 +1,80 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos del contenedor del formulario */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos de las filas del formulario */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilos de los grupos de formulario */
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de los labels */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos de los inputs y textarea */
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos del botón */
+button {
+    padding: 10px 20px;
+    background-color: #19baba;
+    color: #1c1919;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06949e;
+}
+
+/* Media queries para diseño responsive */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+    }
+}
